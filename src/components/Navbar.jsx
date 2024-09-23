@@ -3,7 +3,7 @@ import '../App.css'
 
 const Navbar = () => {
   return (
-    <nav>
+    <nav className="navbar">
       <img src="/airbnb-logo.png" alt="Airbnb logo" />
     </nav>
   )
