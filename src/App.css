@@ -1,7 +1,10 @@
 .navbar {
-    background-color: black;
     display: flex;
-    align-items: center;
-    justify-content: left;
-    position: sticky;
+    height: 70px;
+    padding: 22px 30px;
+    box-shadow: 0 2px 6px 3px #4e4d4d2d;
+}
+
+.navbar__image {
+    max-width: 100px;
 }
