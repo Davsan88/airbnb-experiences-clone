@@ -4,10 +4,8 @@ import '../App.css'
 const Card = () => {
   return (
     <div className='card'>
-      <div className='card__image'>
-        <img src="katie-zaferes.png" alt="American professional triathlete Katie Zaferes" />
-        <p>SOLD OUT</p>
-      </div>
+        <img className='card__image' src="katie-zaferes.png" alt="American professional triathlete Katie Zaferes" />
+        <span className='card__status'>SOLD OUT</span>
       <div className='card__info'>
         <i class="fa-solid fa-star"></i>
         <span>5.0 </span>
