@@ -12,7 +12,7 @@ const Card = () => {
         <span className='gray'>(6) ·</span>
         <span className='gray'>USA </span>
       </div>
-        <p>Life lessons with Katie Zaferes</p>
+        <h2>Life lessons with Katie Zaferes</h2>
         <p><b>From $136</b> / person</p>
     </div>  
   )
