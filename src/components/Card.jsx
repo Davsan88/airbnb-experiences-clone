@@ -7,7 +7,7 @@ const Card = () => {
         <img className='card__image' src="katie-zaferes.png" alt="American professional triathlete Katie Zaferes" />
         <span className='card__status'>SOLD OUT</span>
       <div className='card__info'>
-        <i class="fa-solid fa-star"></i>
+        <img src="star.png" alt="Star icon" className='card__star'/>
         <span>5.0 </span>
         <span>(6)·</span>
         <span>USA </span>
