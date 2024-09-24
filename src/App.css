@@ -78,5 +78,10 @@
 }
 
 .card__star {
-    height: 16px;
+    height: 1rem;
+}
+
+.card h2 {
+    font-size: 1rem;
+    font-weight: normal;
 }
