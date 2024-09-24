@@ -13,7 +13,7 @@ const Card = () => {
             <p>
                 (6)·USA <br />
                 Life lessons with Katie Zaferes <br />
-                <bold>From $136</bold> / person                
+                <b>From $136</b> / person                
             </p> 
         </div>
     </div>
