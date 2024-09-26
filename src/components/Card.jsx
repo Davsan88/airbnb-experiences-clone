@@ -1,19 +1,19 @@
 import React from 'react'
 import '../App.css'
 
-const Card = () => {
+const Card = ({img, status, rating, reviewCount, country, title, price}) => {
   return (
     <div className='card'>
-        <img className='card__image' src="katie-zaferes.png" alt="American professional triathlete Katie Zaferes" />
-        <span className='card__status'>SOLD OUT</span>
+        <img className='card__image' src={img} alt="American professional triathlete Katie Zaferes" />
+        <span className='card__status'>{status}</span>
       <div className='card__info'>
         <img src="star.png" alt="Star icon" className='card__star'/>
-        <span>5.0 </span>
-        <span className='gray'>(6) ·</span>
-        <span className='gray'>USA </span>
+        <span>{rating} </span>
+        <span className='gray'>{reviewCount} ·</span>
+        <span className='gray'>{country} </span>
       </div>
-        <h2>Life lessons with Katie Zaferes</h2>
-        <p><b>From $136</b> / person</p>
+        <h2>{title}</h2>
+        <p><b>From ${price}</b> / person</p>
     </div>  
   )
 }
