@@ -14,6 +14,3 @@ const Hero = () => {
 }
 
 export default Hero
-
-
-ra
