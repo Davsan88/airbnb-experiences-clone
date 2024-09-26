@@ -10,7 +10,15 @@ function App() {
     <>
      <Navbar />
      <Hero />
-     <Card />
+     <Card 
+        img="katie-zaferes.png" 
+        status="SOLD OUT" 
+        rating="5.0" 
+        reviewCount={6} 
+        country="United Kigdom" 
+        title="Life Lessons with Katie Zafere" 
+        price={136}
+     />
     </>
   )
 }
