@@ -14,8 +14,8 @@ function App() {
         img="katie-zaferes.png" 
         status="SOLD OUT" 
         rating="5.0" 
-        reviewCount={6} 
-        country="United Kigdom" 
+        reviewCount={6}
+        country="USA" 
         title="Life Lessons with Katie Zafere" 
         price={136}
      />
