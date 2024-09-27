@@ -1,20 +1,17 @@
 import React from 'react'
 import '../App.css'
 
-const Card = ({ img, status, rating, reviewCount, country, title, price }) => {
-  console.log({ img, status, rating, reviewCount, country, title, price }); // Check props
-
-
+const Card = ({ title, price, coverImg, stats: { rating, reviewCount }, location }) => {
   return (
 
     <div className='card'>
-      <img className='card__image' src={img} alt="American professional triathlete Katie Zaferes" />
-      <span className='card__status'>{status}</span>
+      <img className='card__image' src={coverImg} alt="Cover image" />
+      {/* <span className='card__status'>{status}</span> */}
       <div className='card__info'>
         <img src="star.png" alt="Star icon" className='card__star' />
         <span>{rating} </span>
         <span className='gray'>({reviewCount}) ·</span>
-        <span className='gray'>{country} </span>
+        <span className='gray'>{location} </span>
       </div>
       <h2>{title}</h2>
       <p><b>From ${price}</b> / person</p>
