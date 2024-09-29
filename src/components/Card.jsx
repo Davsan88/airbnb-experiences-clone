@@ -2,12 +2,21 @@ import React from 'react'
 import '../App.css'
 
 // 3. Card receives the props and can either use them directly or destructure them for easier access.
-const Card = ({ title, price, coverImg, stats: { rating, reviewCount }, location }) => {
+const Card = ({ title, price, coverImg, stats: { rating, reviewCount }, location, openSpots }) => {
+  let statusText
+  if (openSpots === 0) {
+    statusText = 'SOLD OUT'
+  } else if (location === 'Online') {
+    statusText = 'ONLINE'
+  }
+
+
+
   return (
 
     <div className='card'>
       <img className='card__image' src={coverImg} alt="Cover image" />
-      {/* <span className='card__status'>{status}</span> */}
+      {statusText && <div className='card__status'>{statusText}</div>}
       <div className='card__info'>
         <img src="star.png" alt="Star icon" className='card__star' />
         <span>{rating} </span>
