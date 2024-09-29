@@ -1,6 +1,7 @@
 import React from 'react'
 import '../App.css'
 
+// 3. Card receives the props and can either use them directly or destructure them for easier access.
 const Card = ({ title, price, coverImg, stats: { rating, reviewCount }, location }) => {
   return (
 
