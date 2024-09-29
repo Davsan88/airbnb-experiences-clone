@@ -23,7 +23,7 @@ function App() {
     <>
       <Navbar />
       <Hero />
-      <div>
+      <div className="cards-list">
         { cardElements }
       </div>
     </>
