@@ -8,15 +8,10 @@ import './App.css'
 
 function App() {
   // 2. Using .map() to loop over the data array and create a Card component for each item
-  const cardElements = data.map(({ id, title, price, coverImg, stats, location, openSpots }) => (
+  const cardElements = data.map(( item ) => (
     <Card 
-      key={id}
-      title={title}
-      price={price}
-      coverImg={coverImg}
-      stats={stats}
-      location={location}
-      openSpots={openSpots}
+      key={item.id}
+      item={item}
     />
   ))
 
