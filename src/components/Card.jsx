@@ -3,7 +3,7 @@ import '../App.css'
 
 // 3. Card receives the props and can either use them directly or destructure them for easier access.
 const Card = ({ item }) => {
-  const { title, price, coverImg, stats, location, openSpots } = item
+  const { title, price, coverImg, stats: {rating, reviewCount}, location, openSpots } = item
 
   let statusText
   if (openSpots === 0) {
@@ -19,8 +19,8 @@ const Card = ({ item }) => {
       {statusText && <div className='card__status'>{statusText}</div>}
       <div className='card__info'>
         <img src="star.png" alt="Star icon" className='card__star' />
-        <span>{stats.rating} </span>
-        <span className='gray'>({stats.reviewCount}) ·</span>
+        <span>{rating} </span>
+        <span className='gray'>({reviewCount}) ·</span>
         <span className='gray'>{location} </span>
       </div>
       <h2>{title}</h2>
