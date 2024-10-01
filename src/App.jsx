@@ -2,6 +2,7 @@ import { useState } from 'react'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Card from './components/Card'
+import Footer from './components/Footer'
 import data from './data'  // 1. Importing the data file
 import './App.css'
 
@@ -22,6 +23,7 @@ function App() {
       <div className="cards-list">
         { cardElements }
       </div>
+      <Footer />
     </>
   )
 }
