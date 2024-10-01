@@ -45,8 +45,25 @@
 .cards-list {
     display: flex;
     flex-wrap: nowrap;
-    gap: 10px;
+    /* gap: 10px; */
+    align-items: center;
+    gap: 18px;
+    justify-content: space-between;
     overflow-x: auto;
+    overflow-y: hidden;
+    padding-bottom: 40px;
+    max-width: 80vw; /* Limit the width of the container */
+    margin: 0 auto; /* Center the cards-list on the page */
+    scrollbar-width: thin; /* Optional: for thin scrollbar in Firefox */
+}
+
+.cards-list::-webkit-scrollbar {
+    height: 10px; /* Adjust scrollbar height */
+}
+
+.cards-list::-webkit-scrollbar-thumb {
+    background-color: #ccc; /* Color of the scrollbar */
+    border-radius: 10px; /* Round the scrollbar edges */
 }
 
 
@@ -57,7 +74,8 @@
     position: relative;
     margin-left: 30px;
     font-size: 1rem;
-    width: 270px;    
+    width: 270px;   
+    flex-shrink: 0; /* Prevent the card from shrinking in flexbox layout */ 
 }
 
 .card__image {
