@@ -53,3 +53,6 @@ To run this project locally, follow these steps:
    ```bash
    npm run build
    ```
+
+## Project Status
+This project is part of my learning journey with React and is not an official Airbnb application. It is a clone created for practice purposes.
