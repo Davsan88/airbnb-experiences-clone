@@ -36,7 +36,7 @@ To run this project locally, follow these steps:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/airbnb-experiences-clone.git
+   git clone https://github.com/Davsan88/airbnb-experiences-clone.git
    ```
 
 2. **Install the dependencies**:
