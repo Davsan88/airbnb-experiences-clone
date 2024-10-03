@@ -19,3 +19,14 @@ The app consists of four main components:
 
 - **Scrimba Course**: The project was developed based on the **"Learn React for Free"** tutorial by Bob Ziroll.
   - Course link: [Scrimba Course](https://scrimba.com)
+
+## Key Learnings
+- **React Syntax**: Gained an understanding of JSX and React component structure.
+- **Using Vite**: Learned how to set up a fast development environment to improve productivity.
+- **Mapping Data**: Used the `.map()` method to render multiple components dynamically.
+- **Key Prop**: Understood the importance of the `key` prop for optimizing rendering in React.
+- **Props in React**:
+  - Receiving props in a component.
+  - Destructuring props for cleaner code.
+  - Passing non-string props.
+  - Passing an object as props vs. spreading an object’s properties as props.
