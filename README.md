@@ -30,3 +30,26 @@ The app consists of four main components:
   - Destructuring props for cleaner code.
   - Passing non-string props.
   - Passing an object as props vs. spreading an object’s properties as props.
+
+## How to Run This Project Locally
+To run this project locally, follow these steps:
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/yourusername/airbnb-experiences-clone.git
+   ```
+
+2. **Install the dependencies**:
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server**:
+   ```bash
+   npm run dev
+   ```
+
+4. **Build the project for production**
+   ```bash
+   npm run build
+   ```
